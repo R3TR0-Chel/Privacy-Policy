@@ -1,0 +1,18 @@
+Encryption Compliance Documentation for App Store Review
+App Name: Pod Zarplatu
+Bundle ID: com.AlphaNet.podzarplatu
+Developer: LLC Alpha-Net
+Date: July 14, 2025
+
+ Encryption Usage Statement
+The mobile application Pod Zarplatu is developed using the Flutter framework with a backend powered by FastAPI, and it uses Google Firestore as the database.
+The application uses encryption solely for the purpose of secure communication and data storage. All encryption is handled through standard, Apple-approved cryptographic libraries and protocols.
+Specifically:
+Data transmission between the mobile client and backend server is secured using TLS (HTTPS)
+All connections to Firestore (Google Cloud Firestore) use encrypted channels via TLS
+The app does not provide any messaging, payment processing, or cryptographic functionality that would require custom encryption
+No sensitive encryption algorithms are implemented manually in the app
+No peer-to-peer, end-to-end encrypted communication is involved
+Declaration
+The app does not use proprietary encryption algorithms or any encryption methods that fall outside of standard exemptions under the U.S. Export Administration Regulations (EAR).
+All encryption is performed using standard APIs provided by the operating system and/or trusted third-party providers (e.g., Firebase and HTTPS libraries) and is used for secure communication purposes only.
